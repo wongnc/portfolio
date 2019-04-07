@@ -3,7 +3,6 @@
     $subject = "Portfolio Message";
     $name    = $_POST['name'];
     $email   = $_POST['email'];
-    $website   = $_POST['website'];
     $message   = $_POST['message'];
     // Header
     $headers  = "From: offer@yourdomain.com" . strip_tags($usermail) . "\r\n";
